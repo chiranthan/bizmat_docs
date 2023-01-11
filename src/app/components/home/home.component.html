@@ -1,0 +1,36 @@
+<span class = "welcome">BIZmat</span><sub> alpha</sub>
+<br/><br/>
+<h3>BIZmat is the world's first library to provide business specific component level UI solutions to make developers' life easy and managers' track record un-scathed.
+</h3>
+<h3>
+    We would love for you to go through our documentation and try it out in your own application.<br/>
+    Any feedback will be appreciated.
+</h3>
+<br/><br/>
+<h1>Get Started</h1>
+<h2>Install</h2>
+<p>BIZmat uses <a href="https://material.angular.io/" [style] = "{'color': 'orange'}" target="_blank">angular-material</a> as base to build its components</p>
+<mat-card class="code">
+    npm install bizmat --save <br/>
+    ng add @angular/material
+</mat-card>
+<br/><br/>
+<h2>Import</h2>
+<p>Once BIZmat has been installed, make sure you import the BizmatModule and add it to imports as shown below</p>
+<mat-card class="code">
+    import &#123; BizmatModule &#125; from 'bizmat';<br/>
+    ...<br/>
+    NgModule(&#123;<br/>
+    &nbsp;imports: [<br/>
+    &nbsp;&nbsp;...<br/>
+    &nbsp;&nbsp;BizmatModule<br/>
+    &nbsp;],<br/>
+    &nbsp;...<br/>
+    &#125;)
+</mat-card>
+<br/><br/>
+<h2>Using Components: </h2>
+<mat-card class="code">
+    &lt;bizmat-<b><i>COMPONENT_NAME</i></b> (<b><i>COMPONENT_EVENT_EMITTER</i></b>) = "<b><i>CALLBACK_FUNCTION()</i></b>" [<b><i>COMPONENT_PROPERTY</i></b>] = "<b><i>VALUE_VARIABLE</i></b>" &gt;&lt;/bizmat-<b><i>COMPONENT_NAME</i></b>&gt;
+</mat-card>
+<p>You can find further information on each of the components and their usage in their dedicated pages.</p>

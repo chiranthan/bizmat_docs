@@ -1,0 +1,44 @@
+<mat-tab-group>
+    <mat-tab label="Overview"> 
+        <h2>Simple login</h2>
+        <mat-card class="democard">
+            <mat-card-content>
+                <div class="content">
+                    <bizmat-login (onLoginClicked) = "login($event)" ></bizmat-login>
+                </div>
+                <mat-divider></mat-divider>
+                <div class="code">
+                    &lt;bizmat-login (onLoginClicked) = "login($event)"&gt;&lt;/bizmat-login&gt;
+                </div>
+            </mat-card-content>
+        </mat-card>
+        <br/><br/><br/>
+        <h2>Login within a card</h2>
+        <mat-card class="democard">
+            <mat-card-content>
+                <div class="content">
+                    <bizmat-login (onLoginClicked) = "login($event)" wrap = "card"></bizmat-login>
+                </div>
+                <mat-divider></mat-divider>
+                <div class="code">
+                    &lt;bizmat-login (onLoginClicked) = "login($event)" wrap = "card"&gt;&lt;/bizmat-login&gt;
+                </div>
+            </mat-card-content>
+        </mat-card>
+        <br/><br/><br/>
+        <h2>Login with a dialog</h2>
+        <mat-card class="democard">
+            <mat-card-content>
+                <div class="content">
+                    <bizmat-login (onLoginClicked) = "login($event)" wrap = "button" label = "Login"></bizmat-login>
+                </div>
+                <mat-divider></mat-divider>
+                <div class="code">
+                    &lt;bizmat-login (onLoginClicked) = "login($event)" wrap = "button" label = "Login"&gt;&lt;/bizmat-login&gt;
+                </div>
+            </mat-card-content>
+        </mat-card> 
+    </mat-tab>
+    <mat-tab label="API"></mat-tab>
+    <mat-tab label="Plus"></mat-tab>
+</mat-tab-group>
