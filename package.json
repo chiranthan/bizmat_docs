@@ -21,7 +21,7 @@
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
-    "bizmat": "file:../bizmat-workspace/dist/bizmat/bizmat-0.0.1.tgz",
+    "bizmat": "file:../bizmat-workspace/dist/bizmat",
     "rxjs": "~7.5.0",
     "zone.js": "~0.11.4"
   },
