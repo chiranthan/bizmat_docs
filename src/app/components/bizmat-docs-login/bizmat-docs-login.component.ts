@@ -13,7 +13,7 @@ export class BizmatDocsLoginComponent implements OnInit {
   }
 
   login($event: any){
-    alert("Username: " + $event.loginData.username + ", Password: " + $event.loginData.password);
+    alert("Username: " + $event.loginData.username + ", Password: " + $event.loginData.password + ", Remember: " + $event.loginData.remember);
   }
 
 }
