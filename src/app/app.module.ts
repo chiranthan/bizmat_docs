@@ -15,13 +15,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { BizmatDocsTravelComponent } from './components/bizmat-docs-travel/bizmat-docs-travel.component';
+import { BizmatDocsRentalComponent } from './components/bizmat-docs-rental/bizmat-docs-rental.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BizmatDocsLoginComponent,
     HomeComponent,
-    BizmatDocsTravelComponent
+    BizmatDocsTravelComponent,
+    BizmatDocsRentalComponent
   ],
   imports: [
     BrowserModule,

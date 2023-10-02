@@ -6,9 +6,10 @@
     <div class = "menu-heading">
       Components
     </div>
-    <mat-selection-list #shoes [multiple]="false">
+    <mat-selection-list [multiple]="false">
       <mat-list-option routerLink="/login" value = "login">Login</mat-list-option>
       <mat-list-option routerLink="/travel" value = "travel">Travel</mat-list-option>
+      <mat-list-option routerLink="/rental" value = "rental">Rental</mat-list-option>
       <mat-list-option routerLink="/personal" value = "personal">Personal Info</mat-list-option>
     </mat-selection-list>
   </mat-drawer>

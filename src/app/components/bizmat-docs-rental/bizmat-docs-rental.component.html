@@ -1,40 +1,40 @@
 <mat-tab-group>
     <mat-tab label="Overview"> 
-        <h2>Simple Travel</h2>
+        <h2>Simple Rental</h2>
         <mat-card class="democard">
             <mat-card-content>
                 <div class="content">
-                    <bizmat-travel (onSearchClicked) = "search($event)" ></bizmat-travel>
+                    <bizmat-rental (onSearchClicked) = "search($event)" ></bizmat-rental>
                 </div>
                 <mat-divider></mat-divider>
                 <div class="code">
-                    &lt;bizmat-travel (onSearchClicked) = "search($event)"&gt;&lt;/bizmat-travel&gt;
+                    &lt;bizmat-rental (onSearchClicked) = "search($event)"&gt;&lt;/bizmat-rental&gt;
                 </div>
             </mat-card-content>
         </mat-card>
         <br/><br/><br/>
-        <h2>Travel within a card</h2>
+        <h2>rental within a card</h2>
         <mat-card class="democard">
             <mat-card-content>
                 <div class="content">
-                    <bizmat-travel (onSearchClicked) = "search($event)" wrap = "card"></bizmat-travel>
+                    <bizmat-rental (onSearchClicked) = "search($event)" wrap = "card"></bizmat-rental>
                 </div>
                 <mat-divider></mat-divider>
                 <div class="code">
-                    &lt;bizmat-travel (onSearchClicked) = "search($event)" wrap = "card"&gt;&lt;/bizmat-travel&gt;
+                    &lt;bizmat-rental (onSearchClicked) = "search($event)" wrap = "card"&gt;&lt;/bizmat-rental&gt;
                 </div>
             </mat-card-content>
         </mat-card>
         <br/><br/><br/>
-        <h2>Travel with a dialog</h2>
+        <h2>rental with a dialog</h2>
         <mat-card class="democard">
             <mat-card-content>
                 <div class="content">
-                    <bizmat-travel (onSearchClicked) = "search($event)" wrap = "button" label = "Search"></bizmat-travel>
+                    <bizmat-rental (onSearchClicked) = "search($event)" wrap = "button" label = "rental"></bizmat-rental>
                 </div>
                 <mat-divider></mat-divider>
                 <div class="code">
-                    &lt;bizmat-travel (onSearchClicked) = "search($event)" wrap = "button" label = "Search"&gt;&lt;/bizmat-travel&gt;
+                    &lt;bizmat-rental (onSearchClicked) = "search($event)" wrap = "button" label = "Search"&gt;&lt;/bizmat-rental&gt;
                 </div>
             </mat-card-content>
         </mat-card> 

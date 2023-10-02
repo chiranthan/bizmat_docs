@@ -13,6 +13,6 @@ export class BizmatDocsTravelComponent implements OnInit {
   }
 
   search($event: any){
-    alert("From: " + $event.searchData.fromLocation + " To: " + $event.searchData.toLocation);
+    alert("Travelling on " + $event.searchData.departureDate.toLocaleDateString() + " From: " + $event.searchData.fromLocation + " To: " + $event.searchData.toLocation + ($event.searchData.roundTrip? ". Returning back on " + $event.searchData.returnDate.toLocaleDateString() : ""));
   }
 }
